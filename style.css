@@ -1,0 +1,160 @@
+
+
+/* css reser */
+*{
+    /* retirar a margem externa */
+    margin: 0;
+    /* retirar a margem interna */
+    padding: 0;
+}
+header {
+    /* cor de fundo */
+    background-color: #33333300;
+    /* lagura */
+    width: 100%;
+    /* sombra */
+    display: flex;
+    align-items: center;   
+    box-shadow: #0f0202;
+    box-sizing: border-box;
+    
+}
+
+/* formatar a class chamada centro */
+.centro{
+    /* tamanho - lagura */
+    width: 1000px;
+    /* centralizar */
+    margin: auto;
+}
+/* formatar corpo */
+body{
+    font-family: arial, verdana;
+    font-size: 16px;
+}
+h2{
+    /* centralizar */
+    text-align: center;
+    /* maiusculo */
+    text-transform: uppercase;
+    /* tamanho da fonte */
+    font-size: 32px;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.grid{
+    /* aplicar a grid */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid .coluna{
+    /* sombra */
+    box-shadow: 0 0 10px;
+    /* borda arredondada */
+    border-radius: 10px;
+    /* margin externa */
+    margin: 10px;
+}
+.grid .coluna img{
+    /* largura */
+    width: 100%;
+    /* arredondar cantos */
+    border-radius: 10px 10px 0 0;
+
+}
+.grid .coluna p,#zumbies p{
+    margin: 15px;
+    /* alinhar ao centro */
+    text-align: center;
+}
+
+footer {
+	background-color: rgb(73, 192, 240);
+	color: #0f0202;
+    width: 99,5%;
+	padding: 0%;
+	text-align:center;
+	margin-top: 9px;
+    padding: 12px;
+}
+#menu {
+    box-shadow: #0f0202;
+    box-sizing: border-box;
+}
+
+#menu ul { 
+    padding: 10px;
+    margin:0px;
+    background-color:#33333300;
+    list-style:none;
+    text-align: center;
+    border: #0f0202;
+    box-sizing: border-box;
+  }
+
+  #menu ul li { display: inline; }
+
+  #menu ul li a { 
+    padding: 8px 40px; 
+    display: inline-block; /* visual do link */ 
+    background-color:#33333300; 
+    color: #9b9b9b; 
+    text-decoration: none; 
+    border-bottom:3px solid #b0b0b0;
+    text-align: center; 
+    box-shadow:  #b5b4b4 ;
+    border-radius: 40px;
+}
+
+#menu ul li a:hover { 
+    background-color: #333;
+    border-bottom:3px solid rgb(28, 214, 44);
+    text-align: center;
+    box-shadow: 10px 10px 30px;
+    transition: 350ms;
+    scale: 1.01;
+}
+
+  header img {
+    width: 45px;
+  }
+
+
+body main {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+
+
+.apresenta h3 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 0%;
+    color: #ffffff;
+}
+
+
+.jogos h3 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 0%;
+    color: #ffffff;
+}
+.tilt h4 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 0%;
+    color: #ffffff;
+}
+
+
+
